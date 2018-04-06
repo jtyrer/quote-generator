@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Rubik+Mono+One');
+@font-face {
+    font-family: Star Wars;
+    src: url('fonts/Starjedi.ttf');
+}
+body{
+  background:url(img/Star-Wars-Background.jpg);
+}
+h1, #quote, #button-wrapper{
+    text-align:center;
+}
+h1{
+  font-family:Star Wars, Rubik Mono One;
+  color:#FFD80A;
+  font-size:3em;
+  margin-bottom:10%;
+}
+#quote, #newQuoteBtn{
+    color:#fff;
+}
+#quote{
+  margin:0 auto;
+  width:600px;
+  font-family:Oleo Script;
+  font-size:2.2em;
+}
+#button-wrapper{
+  margin:50px auto;
+  width:300px;
+}
+#newQuoteBtn{
+  font-size:1.6em;
+  background-color:transparent;
+  border:none;
+  border-bottom:2px solid #fff;
+  cursor:pointer;
+  margin-right:70px;
+  position:relative;
+  bottom:5px;
+}
+#newQuoteBtn:hover{
+  box-shadow:0px 2px 0px 0px #fff000;
+}
+#newQuoteBtn:focus {
+    outline:0;
+}
+#tweetBtn{
+  color:#00aced;
+  font-size:2.6em;
+}
+#tweetBtn:hover{
+  color: #0084b4;
+}
